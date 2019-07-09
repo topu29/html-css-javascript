@@ -2,4 +2,10 @@ p {
   font-size: 130%;
   background-color: gray;
   color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    color: yellowgreen;
+    text-align: center;
 }
