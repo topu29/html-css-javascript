@@ -10,6 +10,7 @@ console.log("Company CEO name is: "
   + company.ceo.firstName);
 
 console.log(company["name"]);
+console.log(company.name);
 var stockPropName = "stock of company";
 company[stockPropName] = 110;
 
@@ -26,7 +27,7 @@ var facebook = {
   "stock of company": 110
 };
 
-console.log(facebook.ceo.firstName);
+console.log(facebook);
 
 
 
