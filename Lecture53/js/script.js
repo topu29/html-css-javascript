@@ -14,7 +14,10 @@ function sayHello () {
 
   if (name === "student") {
     var title = document.querySelector("#title").textContent;
+    //var title = document.getElementById("title").textContent;
+    //title+= " & Lovin' it!";
     title += " & Lovin' it!";
     document.querySelector("h1").textContent = title;
+    //document.getElementById("title").textContent = title;
   }
 }
